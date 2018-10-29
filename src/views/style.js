@@ -12,15 +12,16 @@ export const Span = styled.span`
 `;
 
 export const Anchor = styled.a`
-    color: blue;
+    text-decoration: none;
+    color: #034f84;
 
     :hover {
         text-decoration: underline;
-        color:blue;
+        color:#034f84;
     }
 
     :visited {
-        color:blue;
+        color:#034f84;
     }
 
 `;

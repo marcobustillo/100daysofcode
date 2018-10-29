@@ -7,6 +7,8 @@ export const ParagraphWrapper = styled.div`
 
 export const ParagraphP = styled.p`
     font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     letter-spacing: 3px;
+    padding-left: 4rem;
+    padding-right: 4rem;
 `;
