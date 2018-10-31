@@ -11,8 +11,7 @@ export const CardWrapper = styled.div`
 export const CardContainer = styled.div`
     display:flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: ${props => props.alignItems ? props.alignItems : 'right'};
     border: 1px solid #e0e0e0;
     box-shadow: 3px 5px #e0e0e0;
     width: 50%;
@@ -23,17 +22,22 @@ export const CardContainer = styled.div`
     }
 `;
 
-export const CardPicture = styled.div`
+export const CardImageStyle = styled.div`
 
 `;
 
-export const CardHeader = styled.div`
+export const CardHeaderStyle = styled.div`
+    display:flex;
+    flex-direction: column;
+    align-items: ${props => props.alignItems ? props.alignItems : 'right'};
 `;
 
-export const CardDescription = styled.div`
-
+export const CardDescriptionStyle = styled.div`
+    display:flex;
+    flex-direction: column;
+    align-items: ${props => props.alignItems ? props.alignItems : 'right'};
 `;
 
-export const CardFooter = styled.div`
+export const CardFooterStyle = styled.div`
 
 `;

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Header, Paragraph, ProgressWrap, Progress, ListUL, LI, Card } from '../components';
+import { Header, Paragraph, ProgressWrap, Progress, ListUL, LI, Card, CardHeader } from '../components';
 import { AppWrapper, Span, Anchor } from './style';
 
 class App extends Component {
@@ -22,7 +22,10 @@ class App extends Component {
           <ListUL>
             <LI>
               <Card>
-                <Header> 5/100 </Header>
+                <CardHeader alignItems='flex-end'>
+                  <Header> 5/100 </Header>
+                </CardHeader>
+                
                 <Header> 5/100 </Header>
               </Card>
             </LI>

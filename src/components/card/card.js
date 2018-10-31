@@ -1,9 +1,9 @@
 import React from 'react';
 import { CardWrapper, CardContainer } from './style';
 
-const Card = ({ children }) => (
+const Card = ({ children, alignItems }) => (
     <CardWrapper>
-        <CardContainer>
+        <CardContainer alignItems={alignItems}>
             { children }
         </CardContainer>
     </CardWrapper>
