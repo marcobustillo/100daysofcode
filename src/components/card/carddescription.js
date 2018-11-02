@@ -1,10 +1,10 @@
 import React from 'react';
 import { CardDescriptionStyle } from './style';
 
-const CardDescription = ({ children }) => (
-    <CardDescriptionStyle>
+const CardDescription = ({ children, alignItems }) => (
+    <CardDescriptionStyle alignItems={alignItems}>
         { children }
     </CardDescriptionStyle>
 )
 
-export { CardDescription }
+export default CardDescription

@@ -1,10 +1,10 @@
 import React from 'react';
 import { ListItems } from './style';
 
-const LI = ({ children }) => (
+const ListItem = ({ children }) => (
     <ListItems>
         { children }
     </ListItems>
 )
 
-export { LI }
+export default ListItem 

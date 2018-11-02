@@ -7,4 +7,4 @@ const CardHeader = ({ children, alignItems }) => (
     </CardHeaderStyle>
 )
 
-export { CardHeader };
+export default CardHeader;
