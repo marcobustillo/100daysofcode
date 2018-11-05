@@ -14,5 +14,14 @@
         "demo":"https://oyoyoi.github.io/JSONValidator-Javascript/",
         "github":"https://github.com/oyoyoi/JSONValidator-Javascript",
         "started": "2018-09-20"
+    },
+    "2":
+    {
+        "id":"2",
+        "title":"Personal Website",
+        "description":"Personal website using React and practicing styled components. The demo will be migrated to any cloud service platform in the future",
+        "demo":"https://oyoyoi.github.io/react-personal-website/",
+        "github":"https://github.com/oyoyoi/react-personal-website",
+        "started": "2018-10-07"
     }
 }
